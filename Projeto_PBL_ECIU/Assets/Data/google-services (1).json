@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "470191720337",
+    "project_id": "eciu-project",
+    "storage_bucket": "eciu-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470191720337:android:2a8923b22b428c2e6a7c30",
+        "android_client_info": {
+          "package_name": "com.google.firebase.ECIUProject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470191720337-7hmn8310va53qn4mn1oaiv3ajkcv2mn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF7Ecr9D00IVGt8Qpuhyp_inEUMc8o8YA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470191720337-7hmn8310va53qn4mn1oaiv3ajkcv2mn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
