@@ -110,8 +110,4 @@ public class Register : MonoBehaviour
     }
 
 
-
-
-    // Update is called once per frame
-
 }
