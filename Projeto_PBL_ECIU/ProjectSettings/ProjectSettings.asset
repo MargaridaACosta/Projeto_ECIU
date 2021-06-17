@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: com.google.firebase.ECIUProject
+  companyName: firebase
   productName: Projeto_PBL_ECIU
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
