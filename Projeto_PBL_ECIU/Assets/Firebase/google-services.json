@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "264808462436",
+    "project_id": "eciu-197e2",
+    "storage_bucket": "eciu-197e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264808462436:android:e939e8f7ff0fa1ca994771",
+        "android_client_info": {
+          "package_name": "com.firebase.eciu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264808462436-v5lkkss5ajv5f2simt3d0go86tvms9v2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOTLbyPrrt1skuOmE6h6RXCqkAg-aSlHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264808462436-v5lkkss5ajv5f2simt3d0go86tvms9v2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

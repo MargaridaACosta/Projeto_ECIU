@@ -7,7 +7,6 @@ using UnityEngine.UI;
 
 public class Register : MonoBehaviour
 {
-    // Start is called before the first frame update
 
     public InputField username_input;
     public InputField gender_input;
@@ -30,6 +29,7 @@ public class Register : MonoBehaviour
         StartCoroutine("CheckState");
 
         Debug.Log("Registo realizado com sucesso");
+
         Firebase.Auth.FirebaseAuth auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
         string username = username_input.text.ToString();
         string gender = gender_input.text.ToString();
