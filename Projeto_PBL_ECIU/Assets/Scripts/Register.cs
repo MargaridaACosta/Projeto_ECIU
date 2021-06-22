@@ -26,7 +26,7 @@ public class Register : MonoBehaviour
         StopCoroutine("CheckState");
         StartCoroutine("CheckState");
 
-        Debug.Log("Registo realizado com sucesso");
+        //Debug.Log("Registo realizado com sucesso");
 
         Firebase.Auth.FirebaseAuth auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
         string username = username_input.text.ToString();
