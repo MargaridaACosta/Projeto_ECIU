@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 233104514}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -872,6 +872,7 @@ GameObject:
   - component: {fileID: 919132149166061386}
   - component: {fileID: 919132149166061388}
   - component: {fileID: 919132149166061387}
+  - component: {fileID: 919132149166061389}
   m_Layer: 0
   m_Name: seashell
   m_TagString: Untagged
@@ -927,6 +928,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00859371, y: 0.0031228298, z: 0.0066329}
   m_Center: {x: -0.00026932498, y: 0.0010457151, z: -0.000005800044}
+--- !u!114 &919132149166061389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149166061385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11caaad37313a4af4bb2393eaf6307ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 10
+  AudioSource: {fileID: 0}
 --- !u!1 &919132149306850179
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,6 +956,7 @@ GameObject:
   - component: {fileID: 919132149306850180}
   - component: {fileID: 919132149306850182}
   - component: {fileID: 919132149306850181}
+  - component: {fileID: 919132149306850183}
   m_Layer: 0
   m_Name: Barrel
   m_TagString: Untagged
@@ -996,6 +1012,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.020586433, y: 0.020586427, z: 0.026342561}
   m_Center: {x: 0, y: -4.6566118e-10, z: -0.005538873}
+--- !u!114 &919132149306850183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149306850179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11caaad37313a4af4bb2393eaf6307ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 10
+  AudioSource: {fileID: 0}
 --- !u!23 &1711813855623026332
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1212,6 +1242,7 @@ GameObject:
   - component: {fileID: 4645473240315130211}
   - component: {fileID: 4645473240315130213}
   - component: {fileID: 4645473240315130212}
+  - component: {fileID: 4645473240315130214}
   m_Layer: 0
   m_Name: ovo4
   m_TagString: Untagged
@@ -1267,6 +1298,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9872879, y: 2.5625746, z: 5.0078387}
   m_Center: {x: -0.054700013, y: 0.090241484, z: 2.4995053}
+--- !u!114 &4645473240315130214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4645473240315130210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11caaad37313a4af4bb2393eaf6307ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 10
+  AudioSource: {fileID: 0}
 --- !u!1 &6085845166792817704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,6 +1326,7 @@ GameObject:
   - component: {fileID: 6085845166792817705}
   - component: {fileID: 6085845166792817707}
   - component: {fileID: 6085845166792817706}
+  - component: {fileID: 6085845166792817708}
   m_Layer: 0
   m_Name: ovo2
   m_TagString: Untagged
@@ -1336,6 +1382,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6085845166792817708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6085845166792817704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11caaad37313a4af4bb2393eaf6307ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 10
+  AudioSource: {fileID: 0}
 --- !u!4 &8784009859611165538
 Transform:
   m_ObjectHideFlags: 0
