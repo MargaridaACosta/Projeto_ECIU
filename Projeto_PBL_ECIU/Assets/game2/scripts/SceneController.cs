@@ -6,18 +6,19 @@ public class SceneController : MonoBehaviour
 {
 
     public const int gridRows = 2;
-    public const int gridCols = 4;
-    public const float offsetX = 2000f;
+    public const int gridCols = 6;
+    public const float offsetX = 1500f;
     public const float offsetY = 2000f;
 
     [SerializeField] private MainCard originalCard;
     [SerializeField] private Sprite[] images;
+    [SerializeField] private GameObject EndGame;
 
     private void Start()
     {
         Vector3 startPos = originalCard.transform.position;
-
-        int[] numbers = {0, 0, 1, 1, 2, 2, 3, 3};
+       // EndGame.SetActive(false);
+        int[] numbers = {0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5};
         numbers = ShuffleArray(numbers);
 
         for(int i = 0; i < gridCols; i++)
@@ -92,6 +93,11 @@ public class SceneController : MonoBehaviour
         {
             _score++;
             scoreLabel.text = "Score: " + _score;
+
+            if (_score == 6) {
+                EndGame.SetActive(true);
+            }
+
         }
         else
         {
