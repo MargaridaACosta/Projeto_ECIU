@@ -5,21 +5,25 @@ using TMPro;
 
 public class Collectibles : MonoBehaviour
 {
-    private GameManager GameManager;
+    private GameManager gameManager;
     public int pointValue;
     public AudioSource AudioSource;
+ 
 
     void Start()
     {
-        GameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     void OnMouseDown()
     {
-        Destroy(this.gameObject);
-        GameManager.UpdateScore(pointValue);
-        //Plays an Audio Source
-        AudioSource.Play();
+       
+        {
+            Destroy(this.gameObject);
+            gameManager.UpdateScore(pointValue);
+            //Plays an Audio Source
+            AudioSource.Play();
+        }
     }
 
     void Update()
