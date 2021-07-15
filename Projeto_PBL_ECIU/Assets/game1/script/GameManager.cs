@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 public class GameManager : MonoBehaviour
 {
     public List<GameObject> targets;
-    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI ScoreText;
     private int score;
     private int time;
     
@@ -45,14 +46,14 @@ public class GameManager : MonoBehaviour
         float minutes = Mathf.FloorToInt(timetoDisplay / 60);
         float seconds = Mathf.FloorToInt(timetoDisplay % 60);
 
-        Timer.text =string.Format("{0:00}:{1:00}",minutes,seconds);
+        Timer.text =string.Format("Time: {0:00}:{1:00}",minutes,seconds);
     }
         
 
     public void UpdateScore(int scoreToAdd)
     {
         score += scoreToAdd;
-        scoreText.text = "Score: " + score;
+        ScoreText.text = "Score: " + score;
 
     }
   public void GameOver()
