@@ -1330,7 +1330,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 2.1642227
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -1522,18 +1522,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2558632469059254638, guid: 1aa39649af9b1440aa0df6c7069cff70,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 66.9948
+      objectReference: {fileID: 0}
+    - target: {fileID: 2558632469059254638, guid: 1aa39649af9b1440aa0df6c7069cff70,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 66.9948
+      objectReference: {fileID: 0}
+    - target: {fileID: 2558632469059254638, guid: 1aa39649af9b1440aa0df6c7069cff70,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 66.9948
+      objectReference: {fileID: 0}
+    - target: {fileID: 2558632469059254638, guid: 1aa39649af9b1440aa0df6c7069cff70,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.35
       objectReference: {fileID: 0}
     - target: {fileID: 2558632469059254638, guid: 1aa39649af9b1440aa0df6c7069cff70,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.43
+      value: 2.31
       objectReference: {fileID: 0}
     - target: {fileID: 2558632469059254638, guid: 1aa39649af9b1440aa0df6c7069cff70,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: 2558632469059254638, guid: 1aa39649af9b1440aa0df6c7069cff70,
         type: 3}
@@ -1632,8 +1647,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4513633526748260648, guid: 2b276ab0a432e4e10888c34c5a32d3b2,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 351.78363
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513633526748260648, guid: 2b276ab0a432e4e10888c34c5a32d3b2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 351.78363
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513633526748260648, guid: 2b276ab0a432e4e10888c34c5a32d3b2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 351.78363
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513633526748260648, guid: 2b276ab0a432e4e10888c34c5a32d3b2,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3.59
       objectReference: {fileID: 0}
     - target: {fileID: 4513633526748260648, guid: 2b276ab0a432e4e10888c34c5a32d3b2,
         type: 3}
@@ -1708,7 +1738,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 2.3735485
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -1920,8 +1950,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2582608007806046233, guid: 28eb8bcf94c324b7a92d72a60d5f3b5c,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4807663
+      objectReference: {fileID: 0}
+    - target: {fileID: 2582608007806046233, guid: 28eb8bcf94c324b7a92d72a60d5f3b5c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4807663
+      objectReference: {fileID: 0}
+    - target: {fileID: 2582608007806046233, guid: 28eb8bcf94c324b7a92d72a60d5f3b5c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4807663
+      objectReference: {fileID: 0}
+    - target: {fileID: 2582608007806046233, guid: 28eb8bcf94c324b7a92d72a60d5f3b5c,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: -3.19
       objectReference: {fileID: 0}
     - target: {fileID: 2582608007806046233, guid: 28eb8bcf94c324b7a92d72a60d5f3b5c,
         type: 3}
@@ -1987,6 +2032,11 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 4645473240315130211}
+    - target: {fileID: 3143665546054918691, guid: d12b7e7a4f0de4396b1d27f539f93def,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 3143665546054918692, guid: d12b7e7a4f0de4396b1d27f539f93def,
         type: 3}
       propertyPath: cochasss
@@ -2004,13 +2054,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5763924512459117904, guid: d12b7e7a4f0de4396b1d27f539f93def,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3424
+      objectReference: {fileID: 0}
+    - target: {fileID: 5763924512459117904, guid: d12b7e7a4f0de4396b1d27f539f93def,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3424
+      objectReference: {fileID: 0}
+    - target: {fileID: 5763924512459117904, guid: d12b7e7a4f0de4396b1d27f539f93def,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3424
+      objectReference: {fileID: 0}
+    - target: {fileID: 5763924512459117904, guid: d12b7e7a4f0de4396b1d27f539f93def,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: -0.36
       objectReference: {fileID: 0}
     - target: {fileID: 5763924512459117904, guid: d12b7e7a4f0de4396b1d27f539f93def,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.04
       objectReference: {fileID: 0}
     - target: {fileID: 5763924512459117904, guid: d12b7e7a4f0de4396b1d27f539f93def,
         type: 3}
