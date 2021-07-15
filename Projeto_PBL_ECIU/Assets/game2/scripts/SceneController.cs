@@ -5,10 +5,10 @@ using UnityEngine;
 public class SceneController : MonoBehaviour
 {
 
-    public const int gridRows = 2;
-    public const int gridCols = 6;
-    public const float offsetX = 1500f;
-    public const float offsetY = 2000f;
+    public const int gridRows = 4;
+    public const int gridCols = 3;
+    public const float offsetX = 900f;
+    public const float offsetY = 1100f;
 
     [SerializeField] private MainCard originalCard;
     [SerializeField] private Sprite[] images;
