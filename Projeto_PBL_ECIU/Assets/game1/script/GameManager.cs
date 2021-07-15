@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public List<GameObject> targets;
     public TextMeshProUGUI ScoreText;
     public TextMeshProUGUI GameOverText;
+    public TextMeshProUGUI Congratulations;
 
     private int Score;
     private int time;
@@ -56,9 +57,14 @@ public class GameManager : MonoBehaviour
 
     public void UpdateScore(int ScoreToAdd)
     {
+
         Score += ScoreToAdd;
         ScoreText.text = "Score:" + Score;
 
+        if (Score == 4)
+        {
+          
+        }
      
 
     }
