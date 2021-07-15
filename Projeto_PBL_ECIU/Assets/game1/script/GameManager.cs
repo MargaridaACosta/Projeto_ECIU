@@ -6,7 +6,7 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public List<GameObject> targets;
-    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI ScoreText;
     private int score;
     private int time;
     
@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
     public void UpdateScore(int scoreToAdd)
     {
         score += scoreToAdd;
-        scoreText.text = "Score: " + score;
+        ScoreText.text = "Score: " + score;
 
     }
   public void GameOver()
