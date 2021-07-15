@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 public class GameManager : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI ScoreText;
     public TextMeshProUGUI GameOverText;
 
-    private int score;
+    private int Score;
     private int time;
     
 
@@ -22,7 +23,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         isGameActive = true;
-        score = 0;
+        Score = 0;
         UpdateScore(0);
 
     }
@@ -55,14 +56,10 @@ public class GameManager : MonoBehaviour
 
     public void UpdateScore(int ScoreToAdd)
     {
-        score += ScoreToAdd;
-        ScoreText.text = "Score:" + score;
+        Score += ScoreToAdd;
+        ScoreText.text = "Score:" + Score;
 
-        if(score == 12)
-        {
-            Debug.Log(score);
-
-        }
+     
 
     }
   public void GameOver()
