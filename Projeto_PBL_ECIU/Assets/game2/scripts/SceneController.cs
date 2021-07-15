@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class SceneController : MonoBehaviour
 {
-
+    public AudioSource Losing;
+    public AudioSource Pair;
     public const int gridRows = 4;
     public const int gridCols = 3;
     public const float offsetX = 900f;
@@ -91,17 +92,23 @@ public class SceneController : MonoBehaviour
     {
         if(_firstRevealed.id == _secondRevealed.id)
         {
+            Pair.Play();
             _score++;
             scoreLabel.text = "Score: " + _score;
 
+
             if (_score == 6) {
                 EndGame.SetActive(true);
+  
             }
 
         }
         else
         {
             yield return new WaitForSeconds(0.5f);
+
+            Losing.Play();
+
 
             _firstRevealed.Unreveal();
             _secondRevealed.Unreveal();
