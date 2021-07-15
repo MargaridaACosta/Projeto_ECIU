@@ -13,6 +13,7 @@ public class MainCard : MonoBehaviour
 
         if (back.activeSelf && controller.canReveal)
         {
+            Debug.Log("esta dentro da condição");
             back.SetActive(false);
             controller.CardRevealed(this);
         }
