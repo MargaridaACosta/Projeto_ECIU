@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
     public List<GameObject> targets;
     public TextMeshProUGUI ScoreText;
+    public TextMeshProUGUI GameOverText;
+
     private int score;
     private int time;
     
@@ -15,6 +17,7 @@ public class GameManager : MonoBehaviour
     public bool isGameActive;
     public float timeValue = 90;
     public TextMeshProUGUI Timer;
+    public TextMeshProUGUI RestartText;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,14 +53,22 @@ public class GameManager : MonoBehaviour
     }
         
 
-    public void UpdateScore(int scoreToAdd)
+    public void UpdateScore(int ScoreToAdd)
     {
-        score += scoreToAdd;
+        score += ScoreToAdd;
         ScoreText.text = "Score: " + score;
+
+        if(score == 12)
+        {
+            Debug.Log(score);
+
+        }
 
     }
   public void GameOver()
     {
-        
+        RestartText.gameObject.SetActive(true);
+        GameOverText.gameObject.SetActive(true);
+        isGameActive = false;
     }
 }

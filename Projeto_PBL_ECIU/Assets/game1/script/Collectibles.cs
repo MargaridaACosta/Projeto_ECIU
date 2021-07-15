@@ -5,14 +5,14 @@ using TMPro;
 
 public class Collectibles : MonoBehaviour
 {
-    private GameManager gameManager;
+    private GameManager GameManager;
     public int pointValue;
     public AudioSource AudioSource;
  
 
     void Start()
     {
-        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        GameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     void OnMouseDown()
@@ -20,7 +20,7 @@ public class Collectibles : MonoBehaviour
        
         {
             Destroy(this.gameObject);
-            gameManager.UpdateScore(pointValue);
+            GameManager.UpdateScore(pointValue);
             //Plays an Audio Source
             AudioSource.Play();
         }
@@ -28,9 +28,9 @@ public class Collectibles : MonoBehaviour
 
     void Update()
     {
-       //if (GameManager.timeValue <= 0)
+        if (GameManager.timeValue <= 0)
         {
-            //GameManager.GameOver();
+            GameManager.GameOver();
         }
     }
 
