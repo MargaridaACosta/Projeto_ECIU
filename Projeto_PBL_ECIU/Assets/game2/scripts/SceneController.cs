@@ -14,9 +14,12 @@ public class SceneController : MonoBehaviour
     [SerializeField] private MainCard originalCard;
     [SerializeField] private Sprite[] images;
     [SerializeField] private GameObject EndGame;
+   
 
     private void Start()
     {
+
+
         Vector3 startPos = originalCard.transform.position;
        // EndGame.SetActive(false);
         int[] numbers = {0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5};
@@ -45,6 +48,10 @@ public class SceneController : MonoBehaviour
                 card.transform.position = new Vector3(posX, posY, startPos.z);
             }
         }
+
+
+
+       
     }
 
     private int[] ShuffleArray(int[] numbers)
