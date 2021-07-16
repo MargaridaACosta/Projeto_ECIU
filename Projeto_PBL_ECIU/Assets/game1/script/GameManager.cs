@@ -41,6 +41,11 @@ public class GameManager : MonoBehaviour
             timeValue = 0;
         }
         DisplayTime(timeValue);
+
+        if (Score == 4)
+        {
+            SceneManager.LoadScene("UIgame1.1");
+        }
     }
     void DisplayTime (float timetoDisplay)
     {
@@ -63,9 +68,8 @@ public class GameManager : MonoBehaviour
 
         if (Score == 4)
         {
-          
+            Congratulations.gameObject.SetActive(true);
         }
-     
 
     }
     public void RestartGame()
