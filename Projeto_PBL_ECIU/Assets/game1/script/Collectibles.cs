@@ -7,7 +7,8 @@ public class Collectibles : MonoBehaviour
 {
     private GameManager GameManager;
     public int pointValue;
-    public AudioSource Ding;
+    public AudioSource AudioSource;
+
  
 
     void Start()
@@ -16,14 +17,13 @@ public class Collectibles : MonoBehaviour
     }
 
     void OnMouseDown()
-    {
+    
        
         {
             Destroy(this.gameObject);
             GameManager.UpdateScore(pointValue);
             //Plays an Audio Source
-            Ding.Play();
-        }
+            AudioSource.Play(); 
     }
 
     void Update()
