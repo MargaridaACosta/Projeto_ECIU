@@ -63,9 +63,9 @@ public class GameManager : MonoBehaviour
 
         if (Score == 4)
         {
-          
+            Congratulations.gameObject.SetActive(true);
         }
-     
+
 
     }
     public void RestartGame()
