@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
         Score += ScoreToAdd;
         ScoreText.text = "Score:" + Score;
 
-        if (Score == 7)
+        if (Score == 8)
         {
             Congratulations.gameObject.SetActive(true);
         }
