@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 287fda92e141b48df93cc32404cdb0c0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - RespostaA: {fileID: 21300000, guid: 5223f5dc3b1b8488ca214d75105d170e, type: 3}
+  - errado: {fileID: 2100000, guid: 82b3def5ff25247478173cdcf00c6e33, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
