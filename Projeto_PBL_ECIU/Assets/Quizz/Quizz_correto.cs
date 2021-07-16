@@ -2,16 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Quizz : MonoBehaviour
+public class Quizz_correto : MonoBehaviour
 {
 
 public GameObject Resposta;
+public GameObject Fim;
+public GameObject Quit;
 bool estadoA = false;
 
 
 
     void Start()
     {
+        Fim.SetActive(false);
+        Quit.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -26,8 +31,11 @@ bool estadoA = false;
 
 	estadoA = !estadoA;
 	if (estadoA == true) {
-	Resposta.GetComponent<Renderer>().material.SetColor("_Color", new Color(1f, 0f, 0f, 0.5f));
-	} 
+	Resposta.GetComponent<Renderer>().material.SetColor("_Color", new Color(0f, 1f, 0f, 0.5f));
+	Fim.SetActive(true);
+    Quit.SetActive(true);
+
+    } 
 	// if (estadoA == true) {
 	
 //	RespostaA.GetComponent<Renderer>().material = errado;}
