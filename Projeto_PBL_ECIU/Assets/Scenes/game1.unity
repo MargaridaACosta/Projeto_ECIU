@@ -1395,7 +1395,7 @@ PrefabInstance:
     - target: {fileID: 2785935560332169430, guid: b70805b33631640a789ce061627602e3,
         type: 3}
       propertyPath: pointValue
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2785935560332169430, guid: b70805b33631640a789ce061627602e3,
         type: 3}
@@ -1406,6 +1406,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3306329377797180008, guid: b70805b33631640a789ce061627602e3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 86.503525
+      objectReference: {fileID: 0}
+    - target: {fileID: 3306329377797180008, guid: b70805b33631640a789ce061627602e3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 86.503525
+      objectReference: {fileID: 0}
+    - target: {fileID: 3306329377797180008, guid: b70805b33631640a789ce061627602e3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 86.503525
       objectReference: {fileID: 0}
     - target: {fileID: 3306329377797180008, guid: b70805b33631640a789ce061627602e3,
         type: 3}
@@ -1847,7 +1862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barril3: {fileID: 2046541674}
-  AngularSpeed: 3
+  AngularSpeed: 2
   RotationRadius: 8
   posX: 3
   posY: 4
@@ -1873,7 +1888,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.9989457
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -2196,7 +2211,7 @@ PrefabInstance:
     - target: {fileID: 3884483784697967510, guid: 2b276ab0a432e4e10888c34c5a32d3b2,
         type: 3}
       propertyPath: pointValue
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3884483784697967510, guid: 2b276ab0a432e4e10888c34c5a32d3b2,
         type: 3}
@@ -2403,6 +2418,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ovo2(1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637848879064476414, guid: c92a8303637654fccb512da26cfd0725,
+        type: 3}
+      propertyPath: pointValue
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5637848879064476414, guid: c92a8303637654fccb512da26cfd0725,
         type: 3}
@@ -2613,7 +2633,7 @@ PrefabInstance:
     - target: {fileID: 1028252068295110487, guid: 28eb8bcf94c324b7a92d72a60d5f3b5c,
         type: 3}
       propertyPath: pointValue
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1028252068295110487, guid: 28eb8bcf94c324b7a92d72a60d5f3b5c,
         type: 3}
@@ -2703,6 +2723,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Barrel (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826053827109933164, guid: a08767b8864fd4c0e9d34b181afd934f,
+        type: 3}
+      propertyPath: pointValue
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4826053827109933164, guid: a08767b8864fd4c0e9d34b181afd934f,
         type: 3}
@@ -2801,7 +2826,7 @@ PrefabInstance:
     - target: {fileID: 3143665546054918689, guid: d12b7e7a4f0de4396b1d27f539f93def,
         type: 3}
       propertyPath: pointValue
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3143665546054918689, guid: d12b7e7a4f0de4396b1d27f539f93def,
         type: 3}
