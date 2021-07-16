@@ -6,12 +6,15 @@ public class Quizz_correto : MonoBehaviour
 {
 
 public GameObject Resposta;
+public GameObject Fim;
 bool estadoA = false;
 
 
 
     void Start()
     {
+        Fim.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -27,7 +30,9 @@ bool estadoA = false;
 	estadoA = !estadoA;
 	if (estadoA == true) {
 	Resposta.GetComponent<Renderer>().material.SetColor("_Color", new Color(0f, 1f, 0f, 0.5f));
-	} 
+	Fim.SetActive(true);
+
+    } 
 	// if (estadoA == true) {
 	
 //	RespostaA.GetComponent<Renderer>().material = errado;}
