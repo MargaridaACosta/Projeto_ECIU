@@ -9,4 +9,12 @@ public class Restart : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
     }
+
+
+    public void ResetScene() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+    }
+
+
 }
