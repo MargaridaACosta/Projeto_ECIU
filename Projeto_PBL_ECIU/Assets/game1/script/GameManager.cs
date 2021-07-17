@@ -73,6 +73,7 @@ public class GameManager : MonoBehaviour
 
 
     }
+<<<<<<< HEAD
    // public void RestartGame()
    // {
    //     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -80,6 +81,13 @@ public class GameManager : MonoBehaviour
   //  }
 
     public void GameOver()
+=======
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+  public void GameOver()
+>>>>>>> parent of 84d3bea (game 1 ui complete)
     {
         RestartButton.gameObject.SetActive(true);
         GameOverText.gameObject.SetActive(true);
