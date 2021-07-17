@@ -9,11 +9,10 @@ public class MainCard : MonoBehaviour
 
    public void OnMouseDown ()
     {
-        Debug.Log("done");
+      
 
         if (back.activeSelf && controller.canReveal)
         {
-            Debug.Log("esta dentro da condição");
             back.SetActive(false);
             controller.CardRevealed(this);
         }

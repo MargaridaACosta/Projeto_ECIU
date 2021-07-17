@@ -2,17 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class startgame : MonoBehaviour
+public class Game_Start : MonoBehaviour
 {
 
-
     [SerializeField] private GameObject Start_Game;
+    
 
     public void OnMouseDown()
     {
-            Debug.Log("oie");
-    }
-    
 
-  
+        if (Start_Game.activeSelf)
+        {
+            Start_Game.SetActive(false);
+        }
+    }
+
+   
+
+
 }
