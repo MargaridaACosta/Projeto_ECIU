@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI ScoreText;
     public TextMeshProUGUI GameOverText;
     public TextMeshProUGUI Congratulations;
+    public TextMeshProUGUI Timer_Text;
+    public TextMeshProUGUI Score_Text;
 
     private int Score;
     private int time;
@@ -64,6 +66,9 @@ public class GameManager : MonoBehaviour
         if (Score == 8)
         {
             Congratulations.gameObject.SetActive(true);
+            Timer_Text.gameObject.SetActive(false);
+            Score_Text.gameObject.SetActive(false);
+
         }
 
 
