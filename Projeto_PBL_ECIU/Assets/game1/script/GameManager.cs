@@ -87,6 +87,9 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
   public void GameOver()
+<<<<<<< HEAD
+>>>>>>> parent of 84d3bea (game 1 ui complete)
+=======
 >>>>>>> parent of 84d3bea (game 1 ui complete)
     {
         RestartButton.gameObject.SetActive(true);
