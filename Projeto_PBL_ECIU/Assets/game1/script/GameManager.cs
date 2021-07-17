@@ -81,6 +81,8 @@ public class GameManager : MonoBehaviour
     {
         RestartButton.gameObject.SetActive(true);
         GameOverText.gameObject.SetActive(true);
+        Timer_Text.gameObject.SetActive(false);
+        Score_Text.gameObject.SetActive(false);
         isGameActive = false;
     }
 }
