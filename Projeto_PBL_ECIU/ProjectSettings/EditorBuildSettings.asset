@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Curiosidade1.unity
     guid: 5b3237e2a642b4badafc23b573697839
+  - enabled: 1
+    path: Assets/Scenes/game2.unity
+    guid: 2a2dcd41addbc4e9ea965a6540b7193a
   m_configObjects: {}
