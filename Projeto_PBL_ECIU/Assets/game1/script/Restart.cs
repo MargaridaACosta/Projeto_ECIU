@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Restart : MonoBehaviour
 {
-    public void ResetScene()
+    public void OnMouseDown()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
     }
