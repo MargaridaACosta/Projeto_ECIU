@@ -9,6 +9,10 @@
 
 	public class SpawnOnMap : MonoBehaviour
 	{
+
+		public GameObject MapPoint;
+
+
 		[SerializeField]
 		AbstractMap _map;
 
@@ -49,6 +53,8 @@
 				var location = _locations[i];
 				spawnedObject.transform.localPosition = _map.GeoToWorldPosition(location, true);
 				spawnedObject.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
+				spawnedObject.transform.parent = MapPoint.transform;
+
 			}
 		}
 	}
