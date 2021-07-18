@@ -89,6 +89,9 @@ public class GameManager : MonoBehaviour
   public void GameOver()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 84d3bea (game 1 ui complete)
+=======
 >>>>>>> parent of 84d3bea (game 1 ui complete)
 =======
 >>>>>>> parent of 84d3bea (game 1 ui complete)
