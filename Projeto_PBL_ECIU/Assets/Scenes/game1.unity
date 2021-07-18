@@ -374,7 +374,6 @@ MonoBehaviour:
   isGameActive: 1
   timeValue: 20
   Timer: {fileID: 1834440007}
-  RestartButton: {fileID: 1867728277}
 --- !u!4 &233104515
 Transform:
   m_ObjectHideFlags: 0
