@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
     public bool isGameActive;
     public float timeValue = 90;
     public TextMeshProUGUI Timer;
-    public Sprite RestartButton;
+   // public Sprite RestartButton;
     // Start is called before the first frame update
     void Start()
     {
@@ -80,10 +80,6 @@ public class GameManager : MonoBehaviour
   //      Debug.Log("debug");
   //  }
 
-    public void GameOver()
-    {
-
-    }
 
     public void RestartGame()
     {
@@ -92,7 +88,7 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        RestartButton.gameObject.SetActive(true);
+      //  RestartButton.Sprite.SetActive(true);
         GameOverText.gameObject.SetActive(true);
         Timer_Text.gameObject.SetActive(false);
         Score_Text.gameObject.SetActive(false);
