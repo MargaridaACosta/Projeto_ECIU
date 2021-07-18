@@ -51,7 +51,7 @@
 			{
 				var spawnedObject = _spawnedObjects[i];
 				var location = _locations[i];
-				spawnedObject.transform.localPosition = _map.GeoToWorldPosition(location, true);
+				spawnedObject.transform.localPosition = _map.GeoToWorldPosition(location, true)  + new Vector3(0, 8, 0);
 				spawnedObject.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
 				spawnedObject.transform.parent = MapPoint.transform;
 
