@@ -372,7 +372,7 @@ MonoBehaviour:
   Timer_Text: {fileID: 1834440007}
   Score_Text: {fileID: 1325416440}
   isGameActive: 1
-  timeValue: 5
+  timeValue: 10
   Timer: {fileID: 1834440007}
   RestartButton: {fileID: 1867728275}
 --- !u!4 &233104515
