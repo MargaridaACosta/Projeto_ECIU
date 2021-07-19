@@ -1780,8 +1780,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 854cc1651fdff4683bb2af57fcde6687,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 114632240689637620, guid: 00f5bf1ff996842fc82384f8f686fda6,
         type: 3}
       propertyPath: _zoomSlider
