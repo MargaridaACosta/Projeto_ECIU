@@ -3,18 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class socorro : MonoBehaviour
+public class LoadNewScene : MonoBehaviour
 {
-
     public void Hello()
     {
         Debug.Log("socoorrorroororor");
     }
 
 
-    public void SceneLoader()
+    public void LoadScene_MyPassport()
     {
         SceneManager.LoadScene("MyPassport");
     }
 
+
+    public void LoadScene_Achievements()
+    {
+        SceneManager.LoadScene("Achievements");
+    }
 }

@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MyPassport.unity
     guid: 0eea7938178bc4b80b7db64a5d788563
+  - enabled: 1
+    path: Assets/Scenes/Achievements.unity
+    guid: 750fb62c9f7af483fa50ba3b46db2067
   m_configObjects: {}
