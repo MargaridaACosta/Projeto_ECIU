@@ -203,7 +203,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1096747167}
-        m_MethodName: OnMouseDown
+        m_MethodName: Voltar_p_1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1363,7 +1363,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "When you get to a checkpoint, follow the \ninstructions on the ECIU Buddy
-    tag, \n"
+    tag and scan\nthe code to find more about the challenge!\n"
 --- !u!222 &298026811
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1526,7 +1526,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 342647011}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1096747167}
+        m_MethodName: Avancar_2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &342647011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1720,7 +1731,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1096747167}
-        m_MethodName: OnMouseDown
+        m_MethodName: SairTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2180,7 +2191,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ff0b530835249529202199f0f1775a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SairTutorial: {fileID: 1485681126}
+  SairTutorial_1: {fileID: 0}
+  SairTutorial_2: {fileID: 0}
+  SairTutorial_3: {fileID: 0}
 --- !u!1 &499023840
 GameObject:
   m_ObjectHideFlags: 0
@@ -2462,7 +2475,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 557744311}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1096747167}
+        m_MethodName: Avancar_3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &557744311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2630,7 +2654,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ff0b530835249529202199f0f1775a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SairTutorial: {fileID: 434672278}
+  SairTutorial_1: {fileID: 0}
+  SairTutorial_2: {fileID: 0}
+  SairTutorial_3: {fileID: 0}
 --- !u!61 &621828331
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2701,7 +2727,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1096747167}
-        m_MethodName: OnMouseDown
+        m_MethodName: SairTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2874,7 +2900,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ff0b530835249529202199f0f1775a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SairTutorial: {fileID: 1869243237}
+  SairTutorial_1: {fileID: 0}
+  SairTutorial_2: {fileID: 0}
+  SairTutorial_3: {fileID: 0}
 --- !u!61 &630767829
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2945,7 +2973,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1096747167}
-        m_MethodName: OnMouseDown
+        m_MethodName: SairTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3074,7 +3102,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1096747167}
-        m_MethodName: OnMouseDown
+        m_MethodName: Voltar_p_2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4560,7 +4588,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1096747167}
-        m_MethodName: OnMouseDown
+        m_MethodName: SairTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6289,12 +6317,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 59d85ddb343834633a47fba94c250c73, type: 3}
-        m_MethodName: 
+      - m_Target: {fileID: 1096747167}
+        m_MethodName: AbrirTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6427,7 +6455,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ff0b530835249529202199f0f1775a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SairTutorial: {fileID: 1485681126}
+  SairTutorial_1: {fileID: 1485681126}
+  SairTutorial_2: {fileID: 1869243237}
+  SairTutorial_3: {fileID: 434672278}
 --- !u!4 &1096747168
 Transform:
   m_ObjectHideFlags: 0
