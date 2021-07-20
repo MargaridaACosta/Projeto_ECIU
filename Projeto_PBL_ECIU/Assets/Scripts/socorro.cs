@@ -5,7 +5,7 @@ using UnityEngine;
 public class socorro : MonoBehaviour
 {
 
-    public void OnMouseDown()
+    public void Hello()
     {
         Debug.Log("socoorrorroororor");
     }
