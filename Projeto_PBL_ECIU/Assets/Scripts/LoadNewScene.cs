@@ -26,4 +26,21 @@ public class LoadNewScene : MonoBehaviour
     {
         SceneManager.LoadScene("App Layout");
     }
+
+
+    public void Load_Login()
+    {
+        SceneManager.LoadScene("Login");
+
+    }
+
+    public void Load_Registo()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
+
+    public void Load_Landing()
+    {
+        SceneManager.LoadScene("LandingPage");
+    }
 }

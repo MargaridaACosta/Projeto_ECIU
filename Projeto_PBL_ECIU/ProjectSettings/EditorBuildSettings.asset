@@ -35,6 +35,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Map.unity
     guid: 9dd90765833b8f24e8dcf3316207274f
+  - enabled: 1
+    path: Assets/Scenes/LandingPage.unity
+    guid: a98b0a8e2e1c5421eb6e74b908a42b30
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: a3fbdc7b8b1364eb6b25d4ed45e3a012
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4826b676b5fc753489f43323b414631e,
       type: 2}
