@@ -21,4 +21,9 @@ public class LoadNewScene : MonoBehaviour
     {
         SceneManager.LoadScene("Achievements");
     }
+
+    public void LoadScene_APP()
+    {
+        SceneManager.LoadScene("App Layout");
+    }
 }
