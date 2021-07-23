@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Register : MonoBehaviour
 {
@@ -80,7 +81,7 @@ public class Register : MonoBehaviour
                 Loading.SetActive(false);
                 Debug.Log("Done");
                 gameObject.SetActive(false);
-                nextPage.SetActive(true);
+                SceneManager.LoadScene("Login");
                 break;
             }
             if (LogInState == "NotDone")

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class Auth : MonoBehaviour
@@ -45,6 +46,9 @@ public class Auth : MonoBehaviour
              Debug.LogFormat("User signed in successfully: {0} ({1})", 
                  newUser.DisplayName, newUser.UserId);
              Debug.Log("Autentificação Feita");
+             CheckState();
+
+
 
          });
 
@@ -61,7 +65,7 @@ public class Auth : MonoBehaviour
                 Loading.SetActive(false);
                 Debug.Log("Done");
                 gameObject.SetActive(false);
-                nextPage.SetActive(true);
+                SceneManager.LoadScene("App Layout");
                 break;
             }
             if (LogInState == "NotDone")
@@ -84,6 +88,8 @@ public class Auth : MonoBehaviour
             yield return new WaitForSeconds(.1f);
 
         }
+
+        
 
 
     }
