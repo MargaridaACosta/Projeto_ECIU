@@ -46,9 +46,9 @@ public class Auth : MonoBehaviour
              Debug.LogFormat("User signed in successfully: {0} ({1})", 
                  newUser.DisplayName, newUser.UserId);
              Debug.Log("Autentificação Feita");
-    
 
 
+             SceneManager.LoadScene("App Layout");
 
          });
 
