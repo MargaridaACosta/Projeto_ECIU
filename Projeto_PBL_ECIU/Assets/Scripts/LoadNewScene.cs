@@ -43,4 +43,9 @@ public class LoadNewScene : MonoBehaviour
     {
         SceneManager.LoadScene("LandingPage");
     }
+
+    public void Load_Map()
+    {
+        SceneManager.LoadScene("Map");
+    }
 }
